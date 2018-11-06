@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="wuchiyilong" size="100.000000 73.300003" />
+    <ImageTarget name="yulong" size="100.000000 73.375000" />
+    <ImageTarget name="yitelongpinlong" size="100.000000 73.300003" />
+    <ImageTarget name="sanjialong" size="100.000000 73.300003" />
+    <ImageTarget name="qianggulong" size="100.000000 73.300003" />
+    <ImageTarget name="jianlong" size="100.000000 65.900002" />
+    <ImageTarget name="lianglong" size="100.000000 73.300003" />
+    <ImageTarget name="jialong" size="100.000000 73.300003" />
+    <ImageTarget name="jibeilong" size="100.000000 75.000000" />
+    <ImageTarget name="bawanglong" size="100.000000 73.300003" />
+  </Tracking>
+</QCARConfig>

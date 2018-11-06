@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000" >
+    <ImageView
+            android:id="@+id/back_layout"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/selector_top_backs" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/back_layout"
+        android:layout_marginTop="20dp"
+        android:text="看一看，这张图行不？"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_share"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_share_bg"
+        android:text="分享"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/edt_memo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_share"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="跟朋友们说点什么吧！"
+        android:maxEms="25" />
+
+    <ImageView
+        android:id="@+id/iv_preview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edt_memo"
+        android:layout_below="@+id/tv_title"
+        android:layout_margin="5dp"
+        android:scaleType="center" />
+
+</RelativeLayout>
